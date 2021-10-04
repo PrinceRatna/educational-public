@@ -14,8 +14,11 @@ module.exports = {
       'customColor4':'rgb(12 83 199 / 50%)',
 
 
-     })
-  },
+     }),
+    //  borderRadius: {
+    //   'large': '10px',
+    //  }
+   },
   variants: {
     extend: {},
   },

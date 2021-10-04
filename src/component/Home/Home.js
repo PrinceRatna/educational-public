@@ -10,15 +10,17 @@ const Home = () => {
         .then(data=>setServices(data));
     },[])
     return (
-        <div>
+        <div className="mx-auto ">
             
         <div className='mb-32 flex flex-col justify-center justify-items-center '>
              <div className=" w-full mb-24"><img src={baner} alt=" "/></div>
-             <h1 className="text-center font-semibold text-5xl mb-10">Our Services</h1>
-            <div className="grid grid-cols-2 gap-6 w-11/12 mx-auto ">
+             <h1 className="text-center font-semibold text-5xl mb-20">Our Services</h1>
+             <div className="mx-auto">
+            <div className="grid grid-cols-2 gap-40 w-11/12 ">
                 {
                 services.map(service=><ServiceHome key={service.id} service={service}></ServiceHome>)
                 }
+            </div>
             </div>
            
         </div>
