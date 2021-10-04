@@ -10,6 +10,8 @@ const Services = () => {
     },[])
     return (
         <div className="text-center">
+     <h1 className="text-center font-semibold text-5xl mt-20 mb-16">More Popular Services</h1>
+
         <div className="grid grid-cols-3 gap-4 my-10 ">
         {
             details.map(detail=><Service key={detail.id} detail={detail}></Service>)
