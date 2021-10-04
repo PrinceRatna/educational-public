@@ -10,7 +10,7 @@ const Footer = () => {
     const element5= <FontAwesomeIcon icon={faTwitter} />
     const element6 = <FontAwesomeIcon icon={faWhatsappSquare} />
     return (
-        <footer className="bg-black h-auto text-white flex justify-between p-5 ">
+        <footer className="bg-black h-auto text-white flex flex-wrap justify-between p-5 ">
          <div>
              <h1 className="font-semibold">CONTACT US</h1>
              <hr/>

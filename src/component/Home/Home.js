@@ -11,13 +11,13 @@ const Home = () => {
     },[])
     return (
         <div className="mx-auto ">
-            <h1 className="text-5xl my-12 text-center text-green-600 font-semibold"> Welcome To Arjan Coaching Center</h1>
+            <h1 className="text-2xl md:text-5xl my-12 text-center text-green-600 font-semibold"> Welcome To Arjan Coaching Center</h1>
             
         <div className='mb-32 flex flex-col justify-center justify-items-center '>
              <div className=" w-full mb-24"><img src={baner} alt=" "/></div>
-             <h1 className="text-center font-semibold text-5xl mb-20 text-green-600">Our Services</h1>
+             <h1 className="text-center font-semibold text-2xl md:text-5xl mb-20 text-green-600">Our Services</h1>
              <div className="mx-auto">
-            <div className="grid grid-cols-2 gap-40 w-11/12 ">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-40 w-11/12 mx-auto">
                 {
                 services.map(service=><ServiceHome key={service.id} service={service}></ServiceHome>)
                 }

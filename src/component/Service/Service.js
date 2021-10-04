@@ -5,8 +5,8 @@ const Service = (props) => {
     return (
         <div className=" mx-auto rounded">
             <img className="w-96 h-72" src={url} alt=''/>
-            <h1 className="text-2xl font-semibold">{title}</h1>
-            <h1 className="text-2xl font-semibold">Price: ${price}</h1>
+            <h1 className="text-lg md:text-2xl font-semibold">{title}</h1>
+            <h1 className="text-lg md:text-2xl font-semibold">Price: ${price}</h1>
 
         </div>
     );
