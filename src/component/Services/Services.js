@@ -9,10 +9,12 @@ const Services = () => {
         .then(data=>setDetails(data));
     },[])
     return (
+        <div className="text-center">
         <div className="grid grid-cols-3 gap-4 my-10 ">
         {
             details.map(detail=><Service key={detail.id} detail={detail}></Service>)
         }
+        </div>
         </div>
     );
 };

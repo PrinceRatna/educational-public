@@ -1,27 +1,27 @@
 [
     {
-      "albumId": 1,
+      "price":450,
       "id": 1,
       "title": "Online Exam",
       "url": "",
       "thumbnailUrl": "./pic1/onlineExam.jpg"
     },
     {
-      "albumId": 1,
+      "price":200,
       "id": 2,
       "title": "Online Quiz",
       "url": "https://via.placeholder.com/600/771796",
       "thumbnailUrl": "./pic1/onlineQuiz.jpg"
     },
     {
-      "albumId": 1,
+      "price":999 ,
       "id": 3,
       "title": "OffLine Exam",
       "url": "https://via.placeholder.com/600/24f355",
       "thumbnailUrl": "./pic1/exam2.jpg"
     },
     {
-      "albumId": 1,
+      "price":0,
       "id": 4,
       "title": "Guideline",
       "url": "https://via.placeholder.com/600/d32776",

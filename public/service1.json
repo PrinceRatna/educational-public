@@ -1,50 +1,59 @@
 [
     {
       "id": 1,
+      "price":750,
       "title": "Physics Course",
       "url": "./pic1/book.jpg"
     },
     {
       "id": 2,
+      "price":400,
       "title": "Chemistry Course",
       "url": "./pic1/book1.jpg"
       
     },
     {
       "id": 3,
+      "price":660,
       "title": "Higher Math Course",
       "url": "./pic1/book2.jpg"
   
     },
     {
       "id": 4,
+      "price":450,
       "title": "Biology Course",
       "url": "./pic1/book.jpg"
       
     },
     {
       "id": 5,
+      "price":300,
       "title": "Online Exam Course",
       "url": "./pic1/onlineExam.jpg"
     },
     {
       "id": 6,
+      "price":450,
       "title": "Offline Exam Course",
       "url": "./pic1/exam2.jpg"
     },
     {
       "id": 7,
+      "price":300,
       "title": "Online Quiz Course",
       "url": "./pic1/onlineQuiz.jpg"
     },
     {
       "id": 8,
+      "price":1150,
       "title": "Web Design Course",
       "url": "./pic1/book2.jpg"
     },
     {
       "id": 8,
-      "title": "Web Design Course",
+      "price":990,
+      "title": "Economics Course",
       "url": "./pic1/book1.jpg"
     }
 ]
