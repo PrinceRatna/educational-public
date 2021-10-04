@@ -1,6 +1,6 @@
 # Arjan Coaching Website
 
-Live Website[https://arjan-coaching.netlify.app](https://arjan-coaching.netlify.app).
+Live Website: [https://arjan-coaching.netlify.app](https://arjan-coaching.netlify.app).
 
 ## Scripts
 
